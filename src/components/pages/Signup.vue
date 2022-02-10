@@ -76,14 +76,14 @@
       </div>
     </div>
     <div class="form-control1">
-      <label for="password2">Confirm Password</label>
+      <label for="password2">Confirm Password /label>
       <input type="password" id="password2" v-model.trim="password2.val" @blur = "validPassword2" />
       <div
         v-show="!password2.valid"
         class="form-control alert alert-danger"
         role="alert"
       >
-        Password does not match.
+        Password not matching.
       </div>
     </div>
 
